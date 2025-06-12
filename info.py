@@ -59,8 +59,8 @@ VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( F
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/marvelsbackups/243') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'modijiurl.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '37f43b8742b61d26dc44f930e1b25c9c9f314779')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Linkcents.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '84a3e44eb56e270b5f8eb969e1f13d8098b2a60d')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
