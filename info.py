@@ -56,19 +56,19 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify
 VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
-HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/marvelsbackups/243') # How to open tutorial link for verification
+HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/marvelsbackup/198') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Linkcents.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '84a3e44eb56e270b5f8eb969e1f13d8098b2a60d')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkshortify.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '446c086e12e48b34b1e7a0d138506b90f4098ee2')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/newmoviesot')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/newmoviezot')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/newrelesemovits')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/marvelsbackups/247') # Tutorial video link for opening shortlink website 
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/marvelsbackup/198') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : Tom and Jerry')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002323650440')) #Log channel id ( make sure bot is admin )
