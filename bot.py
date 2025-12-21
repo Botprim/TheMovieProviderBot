@@ -19,7 +19,7 @@ logging.basicConfig(
 logging.getLogger("aiohttp").setLevel(logging.ERROR)
 logging.getLogger("aiohttp.web").setLevel(logging.ERROR)
 import pyrogram.utils
-pyrogram.utils.MIN_CHANNEL_ID = -1003314549753
+pyrogram.utils.MIN_CHANNEL_ID = -1003550063769
 
 from pyrogram import Client, __version__
 from pyrogram.raw.all import layer
